@@ -1,0 +1,28 @@
+{
+  "name": "translex",
+  "version": "1.0.0",
+  "description": "A simple and flexible translation utility that converts text into one or more languages.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeerupraveen04/TranslationModule.git"
+  },
+  "keywords": [
+    "Translation",
+    "Deepl",
+    "AWS",
+    "Google"
+  ],
+  "author": "praveen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeerupraveen04/TranslationModule/issues"
+  },
+  "homepage": "https://github.com/jeerupraveen04/TranslationModule#readme",
+  "dependencies": {
+    "deepl-node": "^1.19.0"
+  }
+}
