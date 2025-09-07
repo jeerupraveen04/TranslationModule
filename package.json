@@ -2,11 +2,16 @@
   "name": "translex",
   "version": "1.0.0",
   "description": "A simple and flexible translation utility that converts text into one or more languages.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "translex": "dist/index.js"
+  },
   "scripts": {
     "build": "tsc",
     "start": "node dist/index.js",
-    "dev": "ts-node src/index.ts"
+    "dev": "ts-node src/index.ts",
+    "serve": "tsc && node dist/index.js"
   },
   "repository": {
     "type": "git",

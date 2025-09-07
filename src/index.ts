@@ -1,5 +1,7 @@
 import express, { Request, Response } from "express";
 import cors from "cors";
+import dotenv from "dotenv";
+dotenv.config()
 
 const startServer = () => {
   const PORT = process.env.PORT || 3000;
@@ -19,7 +21,7 @@ const startServer = () => {
   });
 
   app.listen(PORT, () => {
-    console.log(`CAPS-BE Server running at PORT: ${PORT}`);
+    console.log(`Translation Server running at PORT: ${PORT}`);
   });
 };
 
