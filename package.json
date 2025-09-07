@@ -1,6 +1,6 @@
 {
   "name": "translex",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple and flexible translation utility that converts text into one or more languages.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
